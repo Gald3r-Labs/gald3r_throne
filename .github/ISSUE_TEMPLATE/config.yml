@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability (do NOT open a public issue)
+    url: https://github.com/Gald3r-Labs/gald3r_throne#reporting-issues
+    about: For security issues, email the maintainer directly instead of filing a public issue.

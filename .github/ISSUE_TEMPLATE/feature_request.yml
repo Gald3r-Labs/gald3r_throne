@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an idea for Gald3r Throne
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are read and often adopted (then implemented by the maintainer and credited in release notes).
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: ideal
+    attributes:
+      label: What would the ideal experience look like?
+    validations:
+      required: false

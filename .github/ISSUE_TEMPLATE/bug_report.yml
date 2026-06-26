@@ -1,0 +1,44 @@
+name: Bug report
+description: Report something broken in Gald3r Throne (experimental — expect flaws)
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Gald3r Throne is **experimental, pre-1.0 software built by a solo developer** —
+        bug reports are the most valuable thing you can contribute.
+        For **security vulnerabilities**, do **not** file here — email the maintainer directly.
+  - type: input
+    id: version
+    attributes:
+      label: Throne release version
+      description: From the Releases page filename or the app's About screen.
+      placeholder: "v0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - Linux
+        - macOS (local build)
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what actually happened?
+      placeholder: Steps to reproduce → expected → actual
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error output / screenshots
+      description: Paste any error text or attach screenshots.
+    validations:
+      required: false
