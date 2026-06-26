@@ -47,3 +47,11 @@ All accepted ideas are implemented by the maintainer and credited in the release
 This is a **downloads-only** repository: it hosts published installers and nothing else.
 Gald3r Throne is built from a **private** monorepo — the application source code is **not**
 public and is not distributed here. gald3r is built *with* gald3r.
+
+## License
+
+Gald3r Throne is **proprietary — all rights reserved** (© 2025-2026 Gald3r Labs LLC).
+
+See [LICENSE](LICENSE) for the copyright notice and [EULA.md](EULA.md) for the
+End User License Agreement governing use of the binary/installer: a license to **use** it
+only — **no redistribution, no reverse-engineering, no warranty** (experimental phase).
