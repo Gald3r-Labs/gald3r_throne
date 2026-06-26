@@ -16,7 +16,7 @@ Get the latest installer from the [**Releases page**](https://github.com/Gald3r-
 |----|------|-------------------|
 | Windows | `.msi` / `.exe` | SmartScreen may say "unknown publisher" → **More info → Run anyway** |
 | Linux | `.AppImage` / `.deb` | `chmod +x` the AppImage, or install the `.deb` |
-| macOS | _not yet published_ | macOS builds are deferred for now (see [source](#source)) |
+| macOS | _not yet published_ | macOS builds are deferred for now — coming in a later release |
 
 > Installers are **unsigned**, so the OS warnings above are expected and safe to bypass.
 > Code-signing and notarization will remove them in a future release.
@@ -31,8 +31,8 @@ Found a bug or have a request? Please open an issue — this is how a solo dev f
 
 ## Contributing
 
-Gald3r is built and maintained by a **solo developer** and is source-available under the
-**Fair Source License 1.1**.
+Gald3r Throne is built and maintained by a **solo developer** and is distributed as
+**compiled installers only — it is not open source** (the application source is private).
 
 **Direct code contributions (pull requests) are not accepted at this time.** However, you are
 warmly encouraged to:
@@ -42,8 +42,8 @@ warmly encouraged to:
 
 All accepted ideas are implemented by the maintainer and credited in the release notes.
 
-## Source
+## About this repository
 
-Gald3r Throne is built from the private gald3r monorepo. This repository hosts the
-published installer downloads only. gald3r is built *with* gald3r — its own task
-management and quality gates develop it.
+This is a **downloads-only** repository: it hosts published installers and nothing else.
+Gald3r Throne is built from a **private** monorepo — the application source code is **not**
+public and is not distributed here. gald3r is built *with* gald3r.
